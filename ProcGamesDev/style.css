@@ -22,7 +22,7 @@ header {
 }
 
 body {
-    background: url(IMG/BG.jpg);
+    background-color: rgb(48, 45, 45);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 #headBG {
-    background: url(img/Header1.gif);
+    background-image: url(IMG/header1.png);
     position: absolute;
     z-index: 10;
     width: 100%;
