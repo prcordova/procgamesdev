@@ -22,7 +22,7 @@ header {
 }
 
 body {
-    background-color: rgb(48, 45, 45);
+    background-color: rgb(29, 26, 26);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 #headBG {
-    background-image: url(IMG/header1.png);
+    background-color: darkgreen;
     position: absolute;
     z-index: 10;
     width: 100%;
