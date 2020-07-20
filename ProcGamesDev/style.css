@@ -8,6 +8,13 @@ header {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left:auto;
+    right: auto;
+    height: auto;
+    width: auto;
+    z-index: 0;
 }
 
 #navproctitle {
@@ -21,23 +28,16 @@ header {
 
 }
 
-body {
-    background-color: rgb(29, 26, 26);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-
 .logo {
     width: 120;
     height: 120;
-    position: fixed;
+    position: absolute;
     border-radius: 10px;
     left: -1700;
     right: 0;
     top: 30;
     margin: auto; 
+    z-index: -1;
     
 }
 
@@ -48,12 +48,21 @@ body {
     width: 100%;
 }
 
+body {
+    background-color: rgb(29, 26, 26);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+ 
+
 #TextHeadNav {
     list-style: none;
     font-family: raleway;
     font-size: 20px;
     top: 30px;
-    position: fixed;
+    position: absolute;
     margin: 0 auto;
     padding: 0;
     width: 98%;
@@ -62,21 +71,25 @@ body {
     height: 100%;
 }
 
-#BGContent {
-    background-color: rgb(36, 34, 33);
-    top: 225;
-    left: 500;
-    width: 1000;
-    height: 1200;
-    position: center;
+
+
+
+
+#BGContent1 {
+    background-color: rgb(243, 243, 243);
+    top: auto;
+    left: auto;
+    width: 500;
+    height: 500;
+    position: relative;
     display: block;
-    z-index: 3;
+    z-index: 0;
     background-repeat: no-repeat;
     
 }
 
-#textcontent {
-    color: #fff;
+#textcontent1 {
+    color: rgb(0, 0, 0);
    font-size: 130%;
     margin: 10;
     width: 100%;
@@ -101,14 +114,17 @@ body {
 }
 
 
+ 
+
+
 #botnav {
-    background:src="img/Header1.gif";
+    background-color: dimgray;
     position: absolute;
     width: 100%;
     height: 100%;
     clear: both;
     background-repeat:no-repeat;
-    z-index: -1;
+    z-index: 1;
     
 }
 
@@ -116,25 +132,22 @@ body {
     
     list-style: none;
     font-size: 20px;
-    bottom: 120;
-    position: relative;
-    margin: 0 auto;
+    bottom: auto;
+    position: absolute;
+    margin: auto;
     padding: 0;
     width: 98%;
     text-align: center;
     display: block;
-    height: 10;
-
+    height: auto;
+    z-index: 1;
 }
-#otherLinks {
 
-    position: absolute;
-    top: 700;
-    left: 10;
-    margin: 10;
-    width: 80%;
-    list-style: none;
-    text-align: left;
-    display: block;
-
+#footer {
+    background-color: dimgray;
+    position: bottom;
+    width: 100%;
+    height:100%;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
