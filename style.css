@@ -25,14 +25,14 @@ header {
 }
 
 #navproctitle {
-    color: b3d5e0;
+    color: #b3d5e0;
     display: flex;
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50;
+    font-size: 100;
     z-index: 5;
-    top: 50;
-    left: 600;
+    top: 50px;
+    left: 700px;
  
     text-align: auto;
 
@@ -133,7 +133,7 @@ body {
     
     list-style: none;
     font-size: 20px;
-    bottom: 120;
+    bottom: 120px;
     position: relative;
     margin: 0 auto;
     padding: 0;
@@ -141,6 +141,7 @@ body {
     text-align: center;
     display: block;
     height: 10;
+    color: floralwhite !important;
 
 }
  
