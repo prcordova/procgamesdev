@@ -29,11 +29,12 @@ header {
     display: flex;
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 100;
+    font-size: 50;
     z-index: 5;
     top: 50;
-    left:750;
-    text-align: center;
+    left: 600;
+ 
+    text-align: auto;
 
 }
 
