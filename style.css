@@ -1,0 +1,145 @@
+*{
+    margin: auto;
+    padding: auto;
+    border: auto; 
+}
+
+#headBG {
+    background-color: darkgreen;
+    position: fixed;
+    z-index: 7;
+    width: auto;
+    height:auto;
+}
+
+header {
+    width: 120;
+    height: 120;
+    position: absolute;
+    border-radius: 10px;
+    left: 17;
+    top:-150;
+    z-index: 6;
+    
+    margin: auto; 
+}
+
+#navproctitle {
+    color: b3d5e0;
+    display: flex;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100;
+    z-index: 5;
+    top: 50;
+    left:750;
+    text-align: center;
+
+}
+
+.logo {
+    width: 120;
+    height: 120;
+    position: absolute;
+    border-radius: 10px;
+    left: 17;
+    top:-150;
+    z-index: 6;
+    
+    margin: auto; 
+    
+}
+
+
+
+.Topslide {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    top:20;
+	
+}
+
+
+
+body {
+    background-color: rgb(29, 26, 26);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+#TextHeadNav {
+    list-style: none;
+    font-family: raleway;
+    font-size: 20px;
+    top: -50px;
+    position:absolute;
+    left:-25;
+    top:25;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+    display: block;
+    height: 100%;
+    z-index: 5;
+    
+}
+
+#BGContent {
+    background-color: rgb(36, 34, 33);
+    top: 225;
+    padding:10;
+    left: 500;
+    width: 1000;
+    height: 100%
+    position: center;
+    display: block;
+    z-index: 3;
+    background-repeat: no-repeat;
+    
+}
+
+#textcontent {
+    color: #fff;
+   font-size: 130%;
+    margin: 10;
+    width: 100%;
+    height: 100%;
+    position: RELATIVE;
+    display: block;
+    
+}
+ 
+
+
+#botnav {
+    background:src="IMG/header1.png";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    background-repeat:no-repeat;
+    z-index: 1;
+    
+}
+
+#TextBotNav {
+    
+    list-style: none;
+    font-size: 20px;
+    bottom: 120;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 98%;
+    text-align: center;
+    display: block;
+    height: 10;
+
+}
+ 
